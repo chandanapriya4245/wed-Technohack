@@ -1,0 +1,87 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/948/568/desktop-wallpaper-android-3d-gallery-android-phone-3d.jpg');
+    background-position: center;
+}
+h1{
+    color: #fff;
+}
+
+.Stopwatch{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 45px;
+    text-decoration-color: #fff;
+}
+
+.container {
+    background-color: rgba(158, 150, 138, 0.3); 
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(210, 173, 173, 0.338);
+}
+
+
+.timer-display {
+    
+    position: relative;
+    width: 92%;
+    background-color: rgba(162, 214, 178, 0.5); 
+    left: 4%;
+    font-family: 'Roboto mono', monospace;
+    color: #070607;
+    font-size: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 500px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.buttons {
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width: 120px;
+    height: 65px;
+    background-color: #33a0e9;
+    color: #111010;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 1000px;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons button:nth-last-child(2) {
+    background-color: #fafa4e;
+}
+
+.buttons button:nth-last-child(1) {
+    background-color: hsl(186, 93%, 54%);
+}
+
+.buttons button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
